@@ -3,7 +3,7 @@ services:
   - type: web
     name: langflow
     runtime: docker
-    dockerfilePath: ./build_and_push.Dockerfile
+    dockerfilePath: ./docker/render.Dockerfile
     repo: https://github.com/MohsinRaz3/langflow
     branch: dev
     healthCheckPath: /health
